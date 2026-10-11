@@ -1,0 +1,20 @@
+# Ignore large dataset files (>100MB exceeds GitHub hard limit)
+data/
+*.csv
+
+# Python environment and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.venv/
+env/
+venv/
+.env
+
+# Model checkpoints & cache
+*.h5
+*.keras
+my_dir/
+tuner_dir/
+.pytest_cache/
